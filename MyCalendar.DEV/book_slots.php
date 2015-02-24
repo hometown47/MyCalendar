@@ -1,5 +1,5 @@
 <?php
-
+// Another code change under the Phase1_Dev branch
 include('php/connect.php'); 
 
 if(isset($_POST['slots_booked'])) $slots_booked = mysqli_real_escape_string($link, $_POST['slots_booked']);
